@@ -18,10 +18,18 @@ shortcuts-
 commands - 
 -npx create-react-app ./
 -npm start
+-CI=false npm run build
+-(_redirects file in public folder , text: /*    /index.html   200)
 -
 -
 -
 -
+-
+-
+-
+-
+discussions :-
+-new Date().toLocaleString(). // output like this - 3/20/2022, 4:23:07 AM
 -
 -
 -
@@ -29,8 +37,9 @@ commands -
 -
 -
 
-discussions :- 
--
+LINKS :- 
+
+-background image linear gradient :- https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/
 -
 -
 -
