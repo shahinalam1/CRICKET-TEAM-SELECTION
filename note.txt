@@ -6,14 +6,18 @@
 -
 -
 -
+shortcuts-
+-imr(import React from 'react';)
+-
+-
 -
 -
 -
 -
 
 commands - 
-npx create-react-app ./
--
+-npx create-react-app ./
+-npm start
 -
 -
 -
