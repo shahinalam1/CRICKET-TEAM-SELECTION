@@ -1,0 +1,39 @@
+//what to do ?
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+commands - 
+npx create-react-app ./
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+discussions :- 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
