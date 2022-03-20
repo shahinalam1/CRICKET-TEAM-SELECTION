@@ -5,12 +5,12 @@
 }
 .home{
   width:100%;
-  min-height: 150vh;
+  min-height: 100vh;
   background-image: linear-gradient(to bottom, rgb(0 0 0 / 91%), rgb(0 0 0 / 83%)), url(../public/Images/homeBg.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position:100% 100%;
-  position:absolute;
+  overflow: auto;
 }
 .header{
   width: 90%;
@@ -21,7 +21,6 @@
   background: #8d2f2f36;
   margin-top: 20px;
   border-left: 3px solid ;
-
 }
 .footer{
   color:#faffff;
@@ -29,4 +28,37 @@
   padding: 10px;
   background: black;
   text-align: center;
+}
+.HomeData{
+  margin-top: 30px;
+  color: #fff;
+}
+.handleState{
+  width: 90%;
+  min-height: 10vh;
+  margin: auto;
+  color: #fff;
+  padding: 20px;
+  background: rgb(1, 2, 8);
+}
+.homeDiv{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 50px;
+  justify-content: center;
+  align-content: center;
+}
+.homeitem{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+}
+.homeitem-in{
+  background: rgb(173, 92, 92);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #000;
 }

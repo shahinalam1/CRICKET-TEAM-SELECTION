@@ -30,7 +30,7 @@ commands -
 -
 discussions :-
 -new Date().toLocaleString(). // output like this - 3/20/2022, 4:23:07 AM
--
+-reverse() // handleState.js
 -
 -
 -
@@ -40,10 +40,10 @@ discussions :-
 LINKS :- 
 
 -background image linear gradient :- https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/
--
--
--
--
+-margin top to div inside another div(set overflow:auto to parent div) :-https://stackoverflow.com/questions/18349320/margin-top-to-div-inside-another-div
+-react list and keys :- (https://reactjs.org/docs/lists-and-keys.html#keys)
+-array reduce :- (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+-Confirm Window in React :-(https://stackoverflow.com/questions/52034868/confirm-window-in-react)
 -
 -
 -

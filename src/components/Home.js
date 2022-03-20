@@ -1,13 +1,13 @@
 import React from 'react';
-import Footer from './Footer';
+import HandleState from './HandleState';
 import Header from './Header';
+import HomeData from './HomeData';
 
 const Home = () => {
     return (
         <div className="home">
             <Header />
-            <p>this is home</p>
-            <Footer/>
+            <HomeData/>
         </div>
     );
 };
