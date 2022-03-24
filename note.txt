@@ -50,3 +50,15 @@ LINKS :-
 -
 -
 -
+
+```
+Removing duplicate array values and then storing them [react]
+LINK: https://stackoverflow.com/questions/37217953/removing-duplicate-array-values-and-then-storing-them-react
+
+way : const uniqueNames = Array.from(new Set(names)); 
+
+here, names is an array .
+
+supper supper idea .
+
+```

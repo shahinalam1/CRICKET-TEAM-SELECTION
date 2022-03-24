@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background:#232F3E;
+    color: #fff;
+}
+.footer-1{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-1 a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    
+}
+.footer-3{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+.footer-3 a{
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.footer-3 a:hover{
+    transform: translateY(-2px);
+    color: #ffd900;    
+}
+.footer-2{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+}

@@ -29,20 +29,20 @@ const FakeData = [
 
     { id: 14, name: "Ebadat Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/10757.1571727413.jpg" },
 
-    { id: 14, name: "Ariful Haque", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10790.1571727277.jpg" },
+    { id: 15, name: "Ariful Haque", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10790.1571727277.jpg" },
 
-    { id: 14, name: "Arafat Sunny", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/6/7186.1571725867.jpg" },
+    { id: 16, name: "Arafat Sunny", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/6/7186.1571725867.jpg" },
 
-    { id: 14, name: "Abu Jayed", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/5/5565.1558522774.jpg" },
+    { id: 17, name: "Abu Jayed", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/5/5565.1558522774.jpg" },
 
-    { id: 14, name: "Al-Amin Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/6757.1571725264.jpg" },
+    { id: 18, name: "Al-Amin Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/6757.1571725264.jpg" },
 
-    { id: 14, name: "Abdur Razzak", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/3180.1571724297.jpg" },
+    { id: 19, name: "Abdur Razzak", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/3180.1571724297.jpg" },
 
-    { id: 14, name: "Afif Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10830.1571724978.jpg" },
+    { id: 20, name: "Afif Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10830.1571724978.jpg" },
 
-    { id: 14, name: "Abu Hider", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/5557.1571724663.jpg" },
+    { id: 21, name: "Abu Hider", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/5557.1571724663.jpg" },
 
-    { id: 14, name: "Afif Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10830.1571724978.jpg" },
+    { id: 22, name: "Afif Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10830.1571724978.jpg" },
 ]
 export default FakeData;

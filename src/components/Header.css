@@ -1,0 +1,44 @@
+.privacy-update-year{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    
+}
+.header{
+    width: 100%;
+    background: rgb(235, 232, 232);
+    background-image: linear-gradient(rgb(0 0 0 / 87%), rgb(0 0 0 / 86%)), url('https://m.cricbuzz.com/a/img/v1/600x400/i1/c224393/the-tournament-is-set-to-begin-on-january-21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-in{
+    width: 90%;
+    margin: auto;
+}  
+.header-title{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-title-header{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size:40px;
+    background: linear-gradient(rgb(4 9 30 / 18%), rgb(61 66 88 / 0%));
+    margin-bottom: 20px;
+
+}
+.header-title .header-p2{
+    padding: 5px;
+    font-size: 23px;
+    color: white;
+    background: linear-gradient(rgb(4 9 30 / 18%), rgb(61 66 88 / 0%));
+}
+.header-p1{
+    color: aqua;
+}
