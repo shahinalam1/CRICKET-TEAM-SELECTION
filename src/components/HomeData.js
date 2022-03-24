@@ -19,11 +19,10 @@ const HomeData = () => {
                     {
                         data.map(dt => {
                             return <div key={dt.id}  className="homeitem-in">
-                               <p>NAME :{dt.name}</p>
+                                <img width="100%" height="150px" src={dt.img} alt="images"  style={{display: 'block'}}/>
+                                <p>NAME :{dt.name}</p>
                                 <p>COST :{dt.cost}</p>
-                                <p>ID :{dt.id}</p>
-                                <img width="100%" height="100px" src={dt.img} alt="images"  style={{display: 'block'}}/>
-                                <button onClick={() => uniqueData(dt.id)}>select</button>
+                                <button className="btn-select" onClick={() => uniqueData(dt.id)}>select</button>
                             </div>
                         })
                     }

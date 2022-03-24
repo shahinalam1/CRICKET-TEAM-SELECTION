@@ -44,7 +44,7 @@ LINKS :-
 -react list and keys :- (https://reactjs.org/docs/lists-and-keys.html#keys)
 -array reduce :- (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 -Confirm Window in React :-(https://stackoverflow.com/questions/52034868/confirm-window-in-react)
--
+-How to add a scroll bar to a component in React? :- (https://stackoverflow.com/questions/50891589/how-to-add-a-scroll-bar-to-a-component-in-react)
 -
 -
 -

@@ -16,7 +16,7 @@ const HandleState = ({state,setState}) => {
           
       }
     return (
-        <div style={{position: 'relative'}}>
+        <div className="sidebar-team">
             <div className="handleState">
             <p>added  {state.length}</p>
             <p>total cost {sumWithInitial}</p>

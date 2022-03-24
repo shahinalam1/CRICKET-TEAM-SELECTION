@@ -1,18 +1,48 @@
-const FakeData=[
-    {id:0,name:"imran",cost:300,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:1,name:"imrann",cost:500,img:"https://images.unsplash.com/photo-1600703136783-bdb5ea365239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"},
-    {id:2,name:"imrannn",cost:1200,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:3,name:"imran",cost:300,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:4,name:"imrann",cost:500,img:"https://images.unsplash.com/photo-1600703136783-bdb5ea365239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"},
-    {id:5,name:"imrannn",cost:1200,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:6,name:"imran",cost:300,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:7,name:"imrann",cost:500,img:"https://images.unsplash.com/photo-1600703136783-bdb5ea365239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"},
-    {id:8,name:"imrannn",cost:1200,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:9,name:"imran",cost:300,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:10,name:"imrann",cost:500,img:"https://images.unsplash.com/photo-1600703136783-bdb5ea365239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"},
-    {id:11,name:"imrannn",cost:1200,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:12,name:"imran",cost:300,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
-    {id:13,name:"imrann",cost:500,img:"https://images.unsplash.com/photo-1600703136783-bdb5ea365239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"},
-    {id:14,name:"imrannn",cost:1200,img:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg"},
+const FakeData = [
+    { id: 0, name: "Nasir Hossain", cost: 300, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/6/4596.1571737035.jpg" },
+
+    { id: 1, name: "Mustafizur Rahman", cost: 500, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/2/6752.1644671504.jpg" },
+
+    { id: 2, name: "Mushfiqur Rahim", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/9/3279.1506323675.jpg" },
+
+    { id: 3, name: "Mosaddek Hossain", cost: 300, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/5560.1506323656.jpg" },
+
+    { id: 4, name: "Mominul Haque", cost: 500, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/3/5933.1506323596.jpg" },
+
+    { id: 5, name: " Saifuddin", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/1/6751.1559279894.jpg" },
+
+    { id: 6, name: "Mohammad Mithun", cost: 300, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/8/4488.1559279480.jpg" },
+
+    { id: 7, name: "Mehedi Hasan", cost: 500, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/6750.1506323385.jpg" },
+
+    { id: 8, name: "Mashrafe Mortaza", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/5/2995.1506323372.jpg" },
+
+    { id: 9, name: "Mahmudullah", cost: 300, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/5/3555.1506323472.jpg" },
+
+    { id: 10, name: "Liton Das", cost: 500, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/5567.1506323355.jpg" },
+
+    { id: 11, name: "Kamrul Islam Rabbi", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/2/8092.1571728413.jpg" },
+
+    { id: 12, name: "Imrul Kayes", cost: 300, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/4240.1506323339.jpg" },
+
+    { id: 13, name: "Farhad Reza", cost: 500, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/3417.1571727783.jpg" },
+
+    { id: 14, name: "Ebadat Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/10757.1571727413.jpg" },
+
+    { id: 14, name: "Ariful Haque", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10790.1571727277.jpg" },
+
+    { id: 14, name: "Arafat Sunny", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/6/7186.1571725867.jpg" },
+
+    { id: 14, name: "Abu Jayed", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/5/5565.1558522774.jpg" },
+
+    { id: 14, name: "Al-Amin Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/6757.1571725264.jpg" },
+
+    { id: 14, name: "Abdur Razzak", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/3180.1571724297.jpg" },
+
+    { id: 14, name: "Afif Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10830.1571724978.jpg" },
+
+    { id: 14, name: "Abu Hider", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/7/5557.1571724663.jpg" },
+
+    { id: 14, name: "Afif Hossain", cost: 1200, img: "https://www.mykhel.com/thumb/247x100x233/cricket/players/0/10830.1571724978.jpg" },
 ]
 export default FakeData;
