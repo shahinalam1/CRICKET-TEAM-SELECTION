@@ -8,7 +8,7 @@ const HomeData = () => {
 
     const uniqueData = (id) => {
        const newData= data.filter(data => data.id === id);
-        setState([...state,newData[0]])
+        setState([...state,newData[0]]);
     }
     console.log(state.length);
     const uniqueNames = Array.from(new Set(state));
