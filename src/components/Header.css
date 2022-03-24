@@ -2,7 +2,7 @@
 .header{
     width: 100%;
     background: rgb(235, 232, 232);
-    background-image: linear-gradient(rgb(0 0 0 / 87%), rgb(0 0 0 / 86%)), url('https://m.cricbuzz.com/a/img/v1/600x400/i1/c224393/the-tournament-is-set-to-begin-on-january-21.jpg');
+    background-image: linear-gradient(rgb(0 0 0 / 87%), rgb(0 0 0 / 86%)), url('../../public/Images/header.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
